@@ -1,0 +1,30 @@
+{
+	"OUI" : "OUI",
+	"NON" : "NON",
+	"#RESET" : "Réinitialiser",
+	"#noSolutions" : "<p><b>Attention:</b> Pas de combinaisons possibles</p>",
+
+	"#AMA" : "Amateur",
+	"#INT" : "Intermédiaire",
+	"#PRO" : "Professionnel",
+
+	".BAN" : "Banshee",
+	".CAU" : "Cauchemar",
+	".DEM" : "Démon",
+	".ESP" : "Esprit",
+	".FAN" : "Fantôme",
+	".JIN" : "Jinn",
+	".OMB" : "Ombre",
+	".ONI" : "Oni",
+	".PLT" : "Poltergeist",
+	".REV" : "Revenant",
+	".SPE" : "Spectre",
+	".YUR" : "Yurei",
+
+	".SPB" : "Spirit box",
+	".EPR" : "Empreintes",
+	".ECR" : "Eciture fantomatique",
+	".TMP" : "Température glaciale",
+	".EMF" : "EMF lvl 5",
+	".OFA" : "Orbe fantômatique"
+}

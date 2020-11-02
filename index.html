@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Phasmophobia</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<script src="jquery-2.0.3.min.js"></script>
+		<script src="script.js?t=1"></script>
+		<script src="fontawesome/js/all.min.js"></script>
+		<link rel="stylesheet" href="knacss.css">
+		<!--<link rel="stylesheet" type="text/css" href="ink/css/ink.min.css">-->
+		<link rel="stylesheet" type="text/css" href="ink/css/ink-flex.min.css">
+		<link rel="stylesheet" href="style.css?t=1">
+	</head>
+	<body>
+		<div class="ink-grid">
+			<div class="column-group half-gutters">
+				<div class="all-50 btn align-left">
+					<h1>Phasmophobia</h1>
+				</div>
+				<div class="all-50 btn">
+					<div class="button-group push-right">
+			  			<button class="ink-button lang" id="fr_FR"><img src="flags/France.png"/></button>
+			  			<button class="ink-button lang" id="en_GB"><img src="flags/United-Kindom.png"/></button>
+			  		</div>
+				</div>
+			  	<div class="all-100 align-center">
+			  		<div class="button-group">
+			  			<button class="ink-button green difBtn" id="AMA">Amateur</button>
+			  			<button class="ink-button orange difBtn" id="INT">Intermédiaire</button>
+			  			<button class="ink-button red difBtn" id="PRO">Professionnel</button>
+			  		</div>
+		  		</div>
+		  		<div class="all-100 align-center" id="timer">
+		  			00:00
+		  		</div>
+		  	</div>
+		  	<div class="column-group gutters">
+			    <div class="xlarge-15 large-20 medium-33 small-50 tiny-100 align-center">
+			    	<button id="SPB" class="ink-button grey clue"><i class="fas fa-microphone-alt"></i><br /><span class="SPB">Spirit box</span><br /><span class="yn">&nbsp;</span></button>
+				</div>
+			    <div class="xlarge-15 large-20 medium-33 small-50 tiny-100 align-center">
+					<button id="EPR" class="ink-button grey clue"><i class="fas fa-fingerprint"></i><br /><span class="EPR">Empreintes</span><br /><span class="yn">&nbsp;</span></button>
+			    </div>
+			    <div class="xlarge-15 large-20 medium-33 small-50 tiny-100 align-center">
+			    	<button id="ECR" class="ink-button grey clue"><i class="fas fa-book-open"></i><br /><span class="ECR">Eciture fantomatique</span><br /><span class="yn">&nbsp;</span></button>
+				</div>
+			    <div class="xlarge-15 large-20 medium-33 small-50 tiny-100 align-center">		    	
+					<button id="TMP" class="ink-button grey clue"><i class="fas fa-thermometer-quarter"></i><br /><span class="TMP">Température glaciale</span><br /><span class="yn">&nbsp;</span></button>
+			    </div>
+			    <div class="xlarge-15 large-20 medium-33 small-50 tiny-100 align-center">
+			    	<button id="EMF" class="ink-button grey clue"><i class="fas fa-satellite-dish"></i><br /><span class="EMF">EMF lvl 5</span><br /><span class="yn">&nbsp;</span></button>
+			    </div>
+			    <div class="xlarge-15 large-20 medium-33 small-50 tiny-100 align-center">
+					<button id="OFA" class="ink-button grey clue"><i class="fas fa-ghost"></i><br /><span class="OFA">Orbe fantômatique</span><br /><span class="yn">&nbsp;</span></button>
+			    </div>
+			</div>
+
+			<div class="column-group gutters">
+			  	<div id="noSolutions" class="all-100 ink-alert basic" role="alert">
+			    	<p><b>Attention:</b> Pas de combinaisons possibles</p>
+				</div>
+			</div>
+			<div class="column-group" id="spiritList">
+				
+				<div class="all-20 small-50 tiny-100" id="BAN" class="BAN">
+					Banshee<br />
+					<ul class="sclues">
+						<li class="EPR"></li>
+						<li class="TMP"></li>
+						<li class="EMF"></li>
+					</ul>
+				</div>
+				<div class="all-20 small-50 tiny-100" id="CAU" class="CAU">
+					Cauchemar<br />
+					<ul class="sclues">
+						<li class="SPB"></li>
+						<li class="TMP"></li>
+						<li class="OFA"></li>
+					</ul>
+				</div>
+				<div class="all-20 small-50 tiny-100" id="DEM" class="DEM">
+					Démon<br />
+					<ul class="sclues">
+						<li class="SPB"></li>
+						<li class="ECR"></li>
+						<li class="TMP"></li>
+					</ul>
+				</div>
+				<div class="all-20 small-50 tiny-100" id="ESP" class="ESP">
+					Esprit<br />
+					<ul class="sclues">
+						<li class="SPB"></li>
+						<li class="EPR"></li>
+						<li class="ECR"></li>
+					</ul>
+				</div>
+				<div class="all-20 small-50 tiny-100" id="FAN" class="FAN">
+					Fantôme<br />
+					<ul class="sclues">
+						<li class="TMP"></li>
+						<li class="EMF"></li>
+						<li class="OFA"></li>
+					</ul>
+				</div>
+				<div class="all-20 small-50 tiny-100" id="JIN" class="JIN">
+					Jinn<br />
+					<ul class="sclues">
+						<li class="SPB"></li>
+						<li class="EMF"></li>
+						<li class="OFA"></li>
+					</ul>
+				</div>
+				<div class="all-20 small-50 tiny-100" id="OMB" class="OMB">
+					Ombre<br />
+					<ul class="sclues">
+						<li class="ECR"></li>
+						<li class="EMF"></li>
+						<li class="OFA"></li>
+					</ul>
+				</div>
+				<div class="all-20 small-50 tiny-100" id="ONI" class="ONI">
+					Oni<br />
+					<ul class="sclues">
+						<li class="SPB"></li>
+						<li class="ECR"></li>
+						<li class="EMF"></li>
+					</ul>
+				</div>
+				<div class="all-20 small-50 tiny-100" id="PLT" class="PLT">
+					Poltergeist<br />
+					<ul class="sclues">
+						<li class="SPB"></li>
+						<li class="EPR"></li>
+						<li class="OFA"></li>
+					</ul>
+				</div>
+				<div class="all-20 small-50 tiny-100" id="REV" class="REV">
+					Revenant<br />
+					<ul class="sclues">
+						<li class="EPR"></li>
+						<li class="ECR"></li>
+						<li class="EMF"></li>
+					</ul>
+				</div>
+				<div class="all-20 small-50 tiny-100" id="SPE" class="SPE">
+					Spectre<br />
+					<ul class="sclues">
+						<li class="SPB"></li>
+						<li class="EPR"></li>
+						<li class="TMP"></li>
+					</ul>
+				</div>
+				<div class="all-20 small-50 tiny-100" id="YUR" class="YUR">
+					Yurei<br />
+					<ul class="sclues">
+						<li class="ECR"></li>
+						<li class="TMP"></li>
+						<li class="OFA"></li>
+					</ul>
+				</div>
+			</div>
+			<div class="column-group gutters">
+				<div class="all-100">
+					<div id="INFBAN" class="ink-alert block info" role="alert">
+					    <h4 class="BAN">Banshee</h4>
+					    <p><b>Force :</b> Cible qu'une personne à la fois</p>
+					    <p><b>Faiblesse :</b> Craignent les crucifix et sont moins agressif à leurs portées</p>
+					</div>
+					<div id="INFCAU" class="ink-alert block info" role="alert">
+					    <h4 class="CAU">Cauchemar</h4>
+					    <p><b>Force :</b> Chance d'attaquer dans l'obscurité</p>
+					    <p><b>Faiblesse :</b> Allumer les lumières réduit les chances d'attaque</p>
+					</div>
+					<div id="INFDEM" class="ink-alert block info" role="alert">
+					    <h4 class="DEM">Démon</h4>
+					    <p><b>Force :</b> Attaque plus souvent</p>
+					    <p><b>Faiblesse :</b> Poser correctement une question sur une planche Ouija ne réduira pas la santé mentale</p>
+					</div>
+					<div id="INFESP" class="ink-alert block info" role="alert">
+					    <h4 class="ESP">Esprit</h4>
+					    <p><b>Force :</b> Rien</p>
+					    <p><b>Faiblesse :</b> Bâton d'encens l'empêchera d'attaquer pendant une longue période</p>
+					</div>
+					<div id="INFFAN" class="ink-alert block info" role="alert">
+					    <h4 class="FAN">Fantôme</h4>
+					    <p><b>Force :</b> Le regarder diminue considérablement la santé mentale</p>
+					    <p><b>Faiblesse :</b> Prendre une photo le fait temporairement disparaitre</p>
+					</div>
+					<div id="INFJIN" class="ink-alert block info" role="alert">
+					    <h4 class="JIN">Jinn</h4>
+					    <p><b>Force :</b> Voyage à une vitesse plus rapide si la victime est éloignée</p>
+					    <p><b>Faiblesse :</b> Couper le courant l'empêche d'utiliser sa capacité</p>
+					</div>
+					<div id="INFOMB" class="ink-alert block info" role="alert">
+					    <h4 class="OMB">Ombre</h4>
+					    <p><b>Force :</b> Etre timide signifie que le fantôme sera plus difficile à trouver</p>
+					    <p><b>Faiblesse :</b> N'entre pas en chasse si plusieurs personnes à proximité</p>
+					</div>
+					<div id="INFONI" class="ink-alert block info" role="alert">
+					    <h4 class="ONI">Oni</h4>
+					    <p><b>Force :</b> Plus actifs lorsque des personnes sont à proximité et ont vu des objets en mouvement à grande vitesse</p>
+					    <p><b>Faiblesse :</b> Être plus actif le rendra plus facile à trouver et identifier</p>
+					</div>
+					<div id="INFPLT" class="ink-alert block info" role="alert">
+					    <h4 class="PLT">Poltergeist</h4>
+					    <p><b>Force :</b> Peut lancer d'énormes quantités d'objets à la fois</p>
+					    <p><b>Faiblesse :</b> Inefficace dans une pièce vide</p>
+					</div>
+					<div id="INFREV" class="ink-alert block info" role="alert">
+					    <h4 class="REV">Revenant</h4>
+					    <p><b>Force :</b> Voyage à une vitesse plus rapide s'il chasse</p>
+					    <p><b>Faiblesse :</b> Se cacher le fera bouger lentement</p>
+					</div>
+					<div id="INFSPE" class="ink-alert block info" role="alert">
+					    <h4 class="SPE">Spectre</h4>
+					    <p><b>Force :</b> Ne touche presque jamais le sol (pas d'empreintes)</p>
+					    <p><b>Faiblesse :</b> Réaction toxique au sel</p>
+					</div>
+					<div id="INFYUR" class="ink-alert block info" role="alert">
+					    <h4 class="YUR">Yurei</h4>
+					    <p><b>Force :</b> Effet pluys fort sur la santé mentale</p>
+					    <p><b>Faiblesse :</b> Le fait d'utiliser un bâton d'encens dans la salle du Yurei l'empêchera de se promener longtemps dans les lieux</p>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="column-group gutters">
+		  		<div class="all-100 btnReset align-center">
+		  			<button class="ink-button red" id="RESET">Réinitialiser</button>
+		  		</div>
+		  	</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,57 @@
+html, body{
+	width: 100%;
+	margin: 0;
+}
+
+body{
+	background-color: #131313;
+	color: #FFF;
+}
+
+@font-face {
+	font-family: "lcd";
+	src: url("fonts/LCDMN___.TTF") format('truetype');
+}
+
+h1{
+	color: #e0e0e0;
+}
+
+.clue{
+	width: 100%;
+}
+.clue svg{
+	font-size: 32px;
+}
+
+.info p{
+	color: #131313;
+}
+
+.difBtn {
+    width: 33%;
+}
+
+#timer{
+    font-family: 'lcd';
+    color: #da0000;
+    font-size: 42px;
+}
+
+#spiritList div{
+    padding: 5px;
+    border: 1px solid #000000;
+    background-color: #EEE;
+    color: #585858;
+    font-weight: bold;
+}
+
+#spiritList div .sclues{
+	font-weight: normal;
+	font-size: 12px;
+}
+
+#spiritList div .sclues li.checkedClue{
+	text-decoration: line-through;
+    color: #b1b1b1;
+}

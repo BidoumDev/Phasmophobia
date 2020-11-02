@@ -1,0 +1,30 @@
+{
+	"OUI" : "YES",
+	"NON" : "NO", 
+	"#RESET" : "Reset",
+	"#noSolutions" : "<p><b>Warning:</b> No possible solutions with this combination</p>",
+
+	"#AMA" : "Amateur",
+	"#INT" : "Intermediate",
+	"#PRO" : "Professional",
+	
+	".BAN" : "Banshee",
+	".CAU" : "Mare",
+	".DEM" : "Demon",
+	".ESP" : "Spirit",
+	".FAN" : "Phantom",
+	".JIN" : "Jinn",
+	".OMB" : "Shade",
+	".ONI" : "Oni",
+	".PLT" : "Poltergeist",
+	".REV" : "Revenant",
+	".SPE" : "Wraith",
+	".YUR" : "Yurei",
+
+	".SPB" : "Spirit box",
+	".EPR" : "Fingerprints",
+	".ECR" : "Ghost Writing Book",
+	".TMP" : "Freezing Temp",
+	".EMF" : "EMF lvl 5",
+	".OFA" : "Ghost Orb"
+}
