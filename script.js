@@ -63,7 +63,7 @@ $(function(){
 	$(".lang").on('click', function(){
 		loadLang($(this).attr("id"));
 	});
-	loadLang('fr_FR');
+	generateDom();
 });
 
 /**
@@ -212,6 +212,27 @@ function updateDisplay(potentialsSpirits)
 	
 	console.debug(potentialsClue);
 
+}
+
+/**
+ * Generate DOM content regarding Spirit => Clues configuration
+ */
+function generateDom()
+{
+	// Spirits and attached clues
+	for(key in spiritsClues){
+		$("#spiritList").append(
+			'<div class="all-20 small-50 tiny-100" id="'+key+'">'
+				+'<span class="'+key+'"></span><br />'
+				+'<ul class="sclues">'
+					+'<li class="'+spiritsClues[key][0]+'"></li>'
+					+'<li class="'+spiritsClues[key][1]+'"></li>'
+					+'<li class="'+spiritsClues[key][2]+'"></li>'
+				+'</ul>'
+			+'</div>'
+		);	    
+	}
+	loadLang('fr_FR');
 }
 
 /**

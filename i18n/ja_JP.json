@@ -4,9 +4,9 @@
 	"#RESET" : "Reset",
 	"#noSolutions" : "<p><b>Warning:</b> No possible solutions with this combination</p>",
 
-	"#AMA" : "Amateur",
-	"#INT" : "Intermediate",
-	"#PRO" : "Professional",
+	"#AMA" : "素人",
+	"#INT" : "中級",
+	"#PRO" : "プロフェッショナル",
 	
 	".BAN" : "バンシー",
 	".CAU" : "メアー",
