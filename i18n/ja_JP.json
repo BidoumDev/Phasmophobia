@@ -1,0 +1,30 @@
+{
+	"OUI" : "はい",
+	"NON" : "いいえ", 
+	"#RESET" : "Reset",
+	"#noSolutions" : "<p><b>Warning:</b> No possible solutions with this combination</p>",
+
+	"#AMA" : "Amateur",
+	"#INT" : "Intermediate",
+	"#PRO" : "Professional",
+	
+	".BAN" : "バンシー",
+	".CAU" : "メアー",
+	".DEM" : "デーモン",
+	".ESP" : "スピリット",
+	".FAN" : "ファントム",
+	".JIN" : "ジン",
+	".OMB" : "シェード",
+	".ONI" : "鬼",
+	".PLT" : "ポルダーガイスト",
+	".REV" : "レヴェナント",
+	".SPE" : "レイス",
+	".YUR" : "幽霊",
+
+	".SPB" : "スピリットボックス",
+	".EPR" : "指紋",
+	".ECR" : "ゴーストライテイング",
+	".TMP" : "氷点下の温度",
+	".EMF" : "EMFレベル5",
+	".OFA" : "ゴーストオーブ"
+}
