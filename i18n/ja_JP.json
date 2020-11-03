@@ -21,8 +21,8 @@
 	".SPE" : "レイス",
 	".YUR" : "幽霊",
 
-	"#stre" : "Strength",
-	"#weak" : "Weaknesses",
+	"#stre" : "特徴",
+	"#weak" : "弱点",
 
 	"BAN-streDesc" : "Cible qu'une personne à la fois",
 	"BAN-weakDesc" : "Craignent les crucifix et sont moins agressif à leurs portées",
