@@ -24,6 +24,8 @@ var language;				// Language JSON
  * Init
  **/
 $(function(){
+
+	generateDom();
 	reset();
 
 	$(".clue").on('click', function(){
@@ -31,8 +33,7 @@ $(function(){
 	});
 
 	$("#spiritList div").on('click', function(){
-		$(".info").hide();
-		$("#INF"+$(this).attr('id')).show();
+		loadInfoBox($(this).attr('id'));
 	});	
 
 	$(".difBtn").on('click', function(){
@@ -63,7 +64,6 @@ $(function(){
 	$(".lang").on('click', function(){
 		loadLang($(this).attr("id"));
 	});
-	generateDom();
 });
 
 /**
@@ -71,7 +71,7 @@ $(function(){
  */
 function reset()
 {
-	$("#noSolutions, .info").hide();
+	$("#noSolutions, #info").hide();
 	$("#timer").hide();
 	//$("#reset").hide();
 	$(".difBtn").show();
@@ -172,7 +172,7 @@ function refreshSpirits()
  */
 function updateDisplay(potentialsSpirits)
 {
-	$("#noSolutions, .info").hide();
+	$("#noSolutions, #info").hide();
 	$("#spiritList div").hide();
 	$(".sclues li").removeClass("checkedClue");
 
@@ -205,13 +205,21 @@ function updateDisplay(potentialsSpirits)
 	$(".clue.red").removeAttr('disabled');
 
 	if(potentialsSpirits.length == 1){
-		$("#INF"+potentialsSpirits[0]).show();
+		loadInfoBox(potentialsSpirits[0]);
 		$("#spiritList div").hide();
 		return;
 	}
 	
 	console.debug(potentialsClue);
 
+}
+
+function loadInfoBox(ghost)
+{
+	$("#info .title").html(language["."+ghost]);
+	$("#info #streDesc").html(language[ghost+"-streDesc"]);
+	$("#info #weakDesc").html(language[ghost+"-weakDesc"]);
+	$("#info").show();
 }
 
 /**
