@@ -256,6 +256,7 @@ function loadLang(lang)
 		}
 
 		language = dataJson;
+		$(".menu .heading").html($("#"+lang).html());
 		$(".ink-button.clue.red span.yn").html(language.NON);
 		$(".ink-button.clue.green span.yn").html(language.OUI);
 	})
