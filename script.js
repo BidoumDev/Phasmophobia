@@ -230,7 +230,7 @@ function generateDom()
 	// Spirits and attached clues
 	for(key in spiritsClues){
 		$("#spiritList").append(
-			'<div class="all-20 small-50 tiny-100" id="'+key+'">'
+			'<div class="all-20 small-50 tiny-100 spiritBtn" id="'+key+'">'
 				+'<span class="'+key+'"></span><br />'
 				+'<ul class="sclues">'
 					+'<li class="'+spiritsClues[key][0]+'"></li>'
