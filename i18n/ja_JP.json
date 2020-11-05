@@ -30,8 +30,8 @@
 	"CAU-weakDesc" : "Allumer les lumières réduit les chances d'attaque",
 	"DEM-streDesc" : "Attaque plus souvent",
 	"DEM-weakDesc" : "Poser correctement une question sur une planche Ouija ne réduira pas la santé mentale",
-	"ESP-streDesc" : "Rien",
-	"ESP-weakDesc" : "Bâton d'encens l'empêchera d'attaquer pendant une longue période",
+	"ESP-streDesc" : "なし",
+	"ESP-weakDesc" : "スマッジスティックの煙を嫌い、効果中は長時間襲って来なくなる",
 	"FAN-streDesc" : "Le regarder diminue considérablement la santé mentale",
 	"FAN-weakDesc" : "Prendre une photo le fait temporairement disparaitre",
 	"JIN-streDesc" : "Voyage à une vitesse plus rapide si la victime est éloignée",
@@ -51,7 +51,7 @@
 
 	".SPB" : "スピリットボックス",
 	".EPR" : "指紋",
-	".ECR" : "ゴーストライテイング",
+	".ECR" : "ゴーストライティング",
 	".TMP" : "氷点下の温度",
 	".EMF" : "EMFレベル5",
 	".OFA" : "ゴーストオーブ"
