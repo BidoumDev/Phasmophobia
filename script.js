@@ -240,7 +240,7 @@ function generateDom()
 			+'</div>'
 		);	    
 	}
-	loadLang('fr_FR');
+	loadLang(navigator.language.replace('-', '_'));
 }
 
 /**
@@ -261,6 +261,7 @@ function loadLang(lang)
 		$(".ink-button.clue.green span.yn").html(language.OUI);
 	})
 	.fail(function(obj, textStatus, errorThrown){
-		console.log(textStatus);
+		//console.log(textStatus);
+		loadLang("en_GB");
 	});
 }
