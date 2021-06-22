@@ -20,6 +20,8 @@
 	".REV" : "Revenant",
 	".SPE" : "Spectre",
 	".YUR" : "Yurei",
+	".HAN" : "Hantu",
+	".YOK" : "Yokai",
 
 	"#stre" : "Force",
 	"#weak" : "Faiblesse",
@@ -48,6 +50,10 @@
 	"SPE-weakDesc" : "Réaction toxique au sel",
 	"YUR-streDesc" : "Effet plus fort sur la santé mentale",
 	"YUR-weakDesc" : "Le fait d'utiliser un bâton d'encens dans la salle du Yurei l'empêchera de se promener longtemps dans les lieux",
+	"HAN-streDesc" : "Bouge plus rapidement à basse température",
+	"HAN-weakDesc" : "Bouge plus lendement dans les zones plus chaudes",
+	"YOK-streDesc" : "Parler à proximité l'énervera, risque d'attaque",
+	"YOK-weakDesc" : "L'ors d'une chasse, n'entend que les voix proches",
 
 	".SPB" : "Spirit box",
 	".EPR" : "Empreintes",

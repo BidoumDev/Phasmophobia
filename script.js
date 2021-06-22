@@ -10,7 +10,9 @@ var spiritsClues = {
 	'PLT' : ['SPB', 'EPR', 'OFA'],
 	'REV' : ['EPR', 'ECR', 'EMF'],
 	'SPE' : ['SPB', 'EPR', 'TMP'],
-	'YUR' : ['ECR', 'TMP', 'OFA']
+	'YUR' : ['ECR', 'TMP', 'OFA'],
+	'HAN' : ['EPR', 'OFA', 'ECR'],
+	'YOK' : ['SPB', 'OFA', 'ECR']
 };
 
 var active_clues = [];		// Clues checked
