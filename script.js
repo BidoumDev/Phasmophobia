@@ -1,18 +1,29 @@
 var spiritsClues = {
-	'BAN' : ['EPR', 'TMP', 'EMF'],
-	'CAU' : ['SPB', 'TMP', 'OFA'],
-	'DEM' : ['SPB', 'ECR', 'TMP'],
-	'ESP' : ['SPB', 'EPR', 'ECR'],
-	'FAN' : ['TMP', 'EMF', 'OFA'],
-	'JIN' : ['SPB', 'EMF', 'OFA'],
-	'OMB' : ['ECR', 'EMF', 'OFA'],
-	'ONI' : ['SPB', 'ECR', 'EMF'],
-	'PLT' : ['SPB', 'EPR', 'OFA'],
-	'REV' : ['EPR', 'ECR', 'EMF'],
-	'SPE' : ['SPB', 'EPR', 'TMP'],
-	'YUR' : ['ECR', 'TMP', 'OFA'],
-	'HAN' : ['EPR', 'OFA', 'ECR'],
-	'YOK' : ['SPB', 'OFA', 'ECR']
+	/* Clues are:
+	  SPB: Spirit box
+	  EPR: Fingerprints
+	  ECR: Ghost Writing Book
+	  TMP: Freezing Temp
+	  EMF: EMF lvl 5
+	  OFA: Ghost Orb
+	  DOT: Projector D.O.T.S
+	*/
+	'BAN' : ['EPR', 'OFA', 'DOT'], // Banshee
+	'CAU' : ['SPB', 'ECR', 'OFA'], // Mare
+	'DEM' : ['EPR', 'ECR', 'TMP'], // Demon
+	'ESP' : ['SPB', 'ECR', 'EMF'], // Spirit
+	'FAN' : ['SPB', 'EPR', 'DOT'], // Phantom
+	'JIN' : ['EPR', 'TMP', 'EMF'], // Jinn
+	'OMB' : ['ECR', 'TMP', 'EMF'], // Shade
+	'ONI' : ['TMP', 'EMF', 'DOT'], // Oni
+	'PLT' : ['SPB', 'EPR', 'ECR'], // Poltergeist
+	'REV' : ['ECR', 'TMP', 'OFA'], // Revenant
+	'SPE' : ['SPB', 'EMF', 'DOT'], // Wraith
+	'YUR' : ['TMP', 'OFA', 'DOT'], // Yurei
+	'HAN' : ['EPR', 'TMP', 'OFA'], // Hantu
+	'YOK' : ['SPB', 'OFA', 'DOT'], // Yokai
+	'GOR' : ['EPR', 'EMF', 'DOT'], // Goryo
+	'MYL' : ['EPR', 'ECR', 'EMF']  // Myling
 };
 
 var active_clues = [];		// Clues checked

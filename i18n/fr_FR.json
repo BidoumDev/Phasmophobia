@@ -22,6 +22,8 @@
 	".YUR" : "Yurei",
 	".HAN" : "Hantu",
 	".YOK" : "Yokai",
+	".GOR" : "Goryo",
+	".MYL" : "Myling",
 
 	"#stre" : "Force",
 	"#weak" : "Faiblesse",
@@ -60,5 +62,6 @@
 	".ECR" : "Eciture fantomatique",
 	".TMP" : "Température glaciale",
 	".EMF" : "EMF lvl 5",
-	".OFA" : "Orbe fantômatique"
+	".OFA" : "Orbe fantômatique",
+	".DOT" : "Projecteur D.O.T.S."
 }

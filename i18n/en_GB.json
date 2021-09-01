@@ -20,6 +20,10 @@
 	".REV" : "Revenant",
 	".SPE" : "Wraith",
 	".YUR" : "Yurei",
+	".HAN" : "Hantu",
+	".YOK" : "Yokai",
+	".GOR" : "Goryo",
+	".MYL" : "Myling",
 
 	"#stre" : "Strength",
 	"#weak" : "Weaknesses",
@@ -54,5 +58,6 @@
 	".ECR" : "Ghost Writing Book",
 	".TMP" : "Freezing Temp",
 	".EMF" : "EMF lvl 5",
-	".OFA" : "Ghost Orb"
+	".OFA" : "Ghost Orb",
+	".DOT" : "D.O.T.S. Projector"
 }
